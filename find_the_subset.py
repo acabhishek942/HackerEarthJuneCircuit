@@ -10,3 +10,7 @@ def calculate_ugliness(T, D):
         if i + i > D:
             ugliness += 1
     return ugliness
+
+N, M, D = (int(i) for i in input().split())
+T = (int(i) for i in input().split())
+print (T)
